@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* testar cores de navs dps do conteudo */
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.nave{
+  width: 100%;
+  box-shadow: 1px 1px 1px black;
+  height: 80px;
+
+}
+.navegador{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center;
+  height: inherit;
+  background-color: black;
+  /* background-image: linear-gradient(30deg,rgb(0, 0, 0) 40%,rgba(155,155,155,1)); */
+
+}
+.menunav{
+margin-left: 10px;
+}
+.inputnav{
+  border: 1px solid lightgray;
+  border-right-style: none;
+  padding: 2px;
+  width: 100px;
+
+}
+.logo{
+  width: 50px;
+}
+.logos{
+  display: flex;
+  align-items: center;
+  margin-right:-90px;
+}
+.spanlogo{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-left: 15px;
+ 
+  background-color: rgba(255, 165, 0,1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.usernav{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+}
+.avatarimage{
+  border-radius: 50%;
+}
+.btnsearch{
+  background-color: orange;
+  border: none;
+  margin-right: 10px;
+  padding: 3px 6px 0px 5px;
+  border: 1px solid lightgray;
+  border-left-style: none;
+
+
+}
+.lupa{
+  width: 13px;
+}
