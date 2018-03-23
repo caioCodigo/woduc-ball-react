@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.bloco{
+    height: 500px;
+    width: 30%;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.bloco-atras1{
+    height: 400px;
+    width: 20%;
+    background-color: orange;
+    opacity: 0.5;
+    border-radius: 10px 0px 0px 10px;
+}
+.bloco-atras2{
+    height: 400px;
+    width: 20%;
+    background-color: orange;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+.linha-card{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}

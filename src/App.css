@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
+@import url(componentes/header.css);
 /* testar cores de navs dps do conteudo */
 
 body{
   padding: 0;
   margin: 0;
+  background-color: black;
+  overflow-x: hidden;
 }
 
 .nave{
@@ -21,6 +23,7 @@ body{
   align-items: center;
   height: inherit;
   background-color: black;
+  border-bottom:0.3px solid white;
   /* background-image: linear-gradient(30deg,rgb(0, 0, 0) 40%,rgba(155,155,155,1)); */
 
 }
@@ -28,7 +31,7 @@ body{
 margin-left: 10px;
 }
 .inputnav{
-  border: 1px solid lightgray;
+  border: 1px solid orange;
   border-right-style: none;
   padding: 2px;
   width: 100px;
@@ -39,20 +42,76 @@ margin-left: 10px;
 }
 .logos{
   display: flex;
+  position: relative;
   align-items: center;
   margin-right:-90px;
 }
-.spanlogo{
+.spanlogo1{
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   color: black;
-  margin-left: 15px;
- 
+  margin-left: -4px; 
   background-color: rgba(255, 165, 0,1);
   width: 25px;
   text-align: center;
   border-radius: 50%;
+  position: inherit;
+  top: -5px;
 }
+
+.spanlogo2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-left: -7px;
+  background-color: rgba(255, 165, 0,1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: inherit;
+  top: 7px;
+
+}
+.spanlogo3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-left: -7px; 
+  background-color: rgba(255, 165, 0,1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: inherit;
+  top: -5px;
+}
+.spanlogo4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-left: -7px; 
+  background-color: rgba(255, 165, 0,1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: inherit;
+  top: 5px;
+}
+.spanlogo5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin-left: -7px; 
+  background-color: rgba(255, 165, 0,1);
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: inherit;
+  top: -5px;
+}
+
+
+
+
 .usernav{
   display: flex;
   align-items: center;
@@ -67,7 +126,7 @@ margin-left: 10px;
   border: none;
   margin-right: 10px;
   padding: 3px 6px 0px 5px;
-  border: 1px solid lightgray;
+  border: 1px solid orange;
   border-left-style: none;
 
 
