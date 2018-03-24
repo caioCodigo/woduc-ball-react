@@ -9,6 +9,8 @@ header{
     background-color: orange;
     border: 2px solid black;
     border-radius: 10px;
+   box-shadow:   19px 0px 44px 14px black;
+   z-index: 0;
 }
 .bloco-atras1{
     height: 400px;
@@ -30,3 +32,67 @@ header{
     align-items: center;
     z-index: 2;
 }
+.titulo-card{
+    width: 100%;
+    border: 2px solid black;
+    padding: 16px 0px 0px 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.titulo-card p {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 9px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.conteudo-imagem{
+    height: auto;
+    width: 100%;
+   
+}
+.imagem-card{
+    width: 100%;
+    height: 45vh;  
+    border: 2px solid black;
+    border-radius: 5px; 
+    margin-top: 3px;
+    position: relative;
+    z-index: 2;
+}
+.botao{
+    margin-top: 10px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px ;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    background:white;
+    box-shadow: 1px 1px 5px black;
+    position: inherit;
+
+}
+.botao-card{
+    position: relative;
+}
+/* .seta-direita {
+
+    width: 50px;
+    height: 25px;
+    background: black;
+    margin-top: 0px;
+    top:0px;
+    z-index: 0;
+    position: absolute;
+    margin-left: 35px;
+    left: 340px;
+    border-radius:0px 0px 0px 5px; 
+
+  } */
+  /* .testao{
+      position: relative;
+      background:white;
+  } */
+ 
