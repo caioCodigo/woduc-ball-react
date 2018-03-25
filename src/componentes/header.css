@@ -3,96 +3,210 @@ header{
     height: 100vh;
     background-color: black;
 }
-.bloco{
-    height: 500px;
-    width: 30%;
+.bola{
+    height: 374px;
+    width: 29%;
+    border-radius: 50%;
     background-color: orange;
-    border: 2px solid black;
-    border-radius: 10px;
-   box-shadow:   19px 0px 44px 14px black;
-   z-index: 0;
+    margin: 0px 20px 0px 20px;
+    position: relative;
+
 }
-.bloco-atras1{
-    height: 400px;
-    width: 20%;
-    background-color: orange;
+.bola-direita{
+
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    top: 140px;
     opacity: 0.5;
-    border-radius: 10px 0px 0px 10px;
+    
 }
-.bloco-atras2{
-    height: 400px;
-    width: 20%;
-    background-color: orange;
+
+
+.bola-esquerda{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    top: 140px;
     opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
+
 }
-.linha-card{
-    margin-top: 20px;
+.bola-meio{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    top: 30px;    
+}
+.bola-meio p{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    border-bottom: 2px solid;
+    width: 91%;
+
+}
+.conteudo-meio{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+
 }
-.titulo-card{
-    width: 100%;
-    border: 2px solid black;
-    padding: 16px 0px 0px 5px;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 5px;
-    background-color: white;
+
+.logo-meio{
+    width: 160px;
+    position: absolute;
+
 }
-.titulo-card p {
-    color: black;
-    font-size: 20px;
-    letter-spacing: 9px;
-    font-weight: bolder;
+.logo-meio-fundo{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius:50%; 
+    background-color: transparent;
+}
+.btn-entrar{
+    visibility: hidden;
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 55px;
+    left: 35px;
+  
 }
-.conteudo-imagem{
-    height: auto;
-    width: 100%;
+.botao-logo{
+}
+.logo-meio-fundo:hover{
+    background-color:rgba(49, 192, 31, 0.6);  
+    cursor: pointer;
+}
+.logo-meio-fundo:hover .btn-entrar{
+    visibility: visible;
+}
+.btn-meio{
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    position: inherit;
    
 }
-.imagem-card{
-    width: 100%;
-    height: 45vh;  
-    border: 2px solid black;
-    border-radius: 5px; 
-    margin-top: 3px;
-    position: relative;
-    z-index: 2;
+
+
+
+
+
+
+
+.conteudo-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.botao{
-    margin-top: 10px;
-    height: 50px;
-    border: 2px solid black;
-    border-radius: 5px 5px 5px 5px ;
-    font-weight: bolder;
+.conteudo-esquerda p{
+    color: white;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    background:white;
-    box-shadow: 1px 1px 5px black;
-    position: inherit;
-
+    font-weight: bolder;
+    letter-spacing: 4px;
+    border-bottom: 2px solid;
+    width: 85%;
+    font-size: 13px;
 }
-.botao-card{
-    position: relative;
-}
-/* .seta-direita {
 
-    width: 50px;
-    height: 25px;
-    background: black;
-    margin-top: 0px;
-    top:0px;
-    z-index: 0;
+.btn-entrar2{
+    visibility: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 2em;
     position: absolute;
-    margin-left: 35px;
-    left: 340px;
-    border-radius:0px 0px 0px 5px; 
+    top: 55px;
+    left: 30px;
+  
+}
+.logo-esquerda{
+    width: 160px;
+    position: absolute;
 
-  } */
-  /* .testao{
-      position: relative;
-      background:white;
-  } */
- 
+}
+.logo-esquerda-fundo{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius:50%; 
+    background-color: transparent;
+}
+.logo-esquerda-fundo:hover{
+    background-color:rgba(49, 192, 31, 0.6);  
+    cursor: pointer;
+}
+.logo-esquerda-fundo:hover .btn-entrar2{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-direita p{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    border-bottom: 2px solid;
+    width: 85%;
+    font-size: 13px;
+}
+
+.btn-entrar3{
+    visibility: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+  
+}
+.logo-direita{
+    width: 160px;
+    position: absolute;
+
+}
+.logo-direita-fundo{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius:50%; 
+    background-color: transparent;
+}
+.logo-direita-fundo:hover{
+    background-color:rgba(49, 192, 31, 0.6);  
+    cursor: pointer;
+}
+.logo-direita-fundo:hover .btn-entrar3{
+    visibility: visible;
+}
